@@ -4,8 +4,11 @@ from django.shortcuts import render
 def index(requests):
     return render(requests,"index.html")
 
-def w3c(requests):
-    return render(requests,"w3c.html")
+def contato(requests):
+    return render(requests,"contato.html")
 
-def html(requests):
-    return render(requests,"html.html")
+def sobre(requests):
+    return render(requests,"sobre.html")
+
+def projetos(requests):
+    return render(requests,"projetos.html")

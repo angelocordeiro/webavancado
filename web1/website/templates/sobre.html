@@ -1,0 +1,28 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sobre</title>
+  <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Meu Portfólio</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="{%url 'index'%}">Início</a></li>
+      <li><a href="{%url 'sobre'%}">Sobre</a></li>
+      <li><a href="{%url 'projetos'%}">Projetos</a></li>
+      <li><a href="{%url 'contato'%}">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>Sobre</h2>
+    <p>Adicione aqui informações sobre você e sua experiência.</p>
+  </section>
+
+</body>
+</html>
